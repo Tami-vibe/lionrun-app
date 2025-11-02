@@ -1,3 +1,4 @@
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://lionrun-app.vercel.app';
 'use client';
 import { useState } from 'react';
 import { supabase } from '@/lib/supabaseClient';
